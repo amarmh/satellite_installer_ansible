@@ -1,0 +1,1 @@
+# satellite_installer_ansible
