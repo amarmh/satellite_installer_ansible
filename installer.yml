@@ -55,7 +55,7 @@
         name: '*'
         state: latest
 
-    - name: install the latest version of Apache
+    - name: install the Satellite
       yum:
         name: satellite
         state: latest
