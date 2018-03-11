@@ -3,32 +3,32 @@
   hosts: test.server.com
   remote_user: root
 
-  vars_prompt:
-    - name: "username"
-      prompt: "Enter RHN username"
-      private: no
-
-    - name: "password"
-      prompt: "Enter RHN password"
-      private: yes
-
-    - name: "poolid1"
-      prompt: "Enter Employee SKU poolid"
-      private: no
-
-    - name: "poolid2"
-      prompt: "Enter Satellite poolid"
-      private: no
-
-    - name: "organization"
-      prompt: "Enter Default organization name(ExampleCorp)"
-      default: "ExampleCorp"
-      private: no
-
-    - name: "location"
-      prompt: "Enter default location name(India)"
-      default: "India"
-      private: no
+#  vars_prompt:
+#    - name: "username"
+#      prompt: "Enter RHN username"
+#      private: no
+#
+#    - name: "password"
+#      prompt: "Enter RHN password"
+#      private: yes
+#
+#    - name: "poolid1"
+#      prompt: "Enter Employee SKU poolid"
+#      private: no
+#
+#    - name: "poolid2"
+#      prompt: "Enter Satellite poolid"
+#      private: no
+#
+#    - name: "organization"
+#      prompt: "Enter Default organization name(ExampleCorp)"
+#      default: "ExampleCorp"
+#      private: no
+#
+#    - name: "location"
+#      prompt: "Enter default location name(India)"
+#      default: "India"
+#      private: no
 
 
   tasks:
