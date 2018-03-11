@@ -1,6 +1,6 @@
 ---
 - name: Installing Satellite Server
-  hosts: test.server.com
+  hosts: vm253-196.gsslab.pnq2.redhat.com
   remote_user: root
 
 #  vars_prompt:
