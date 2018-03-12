@@ -30,7 +30,6 @@
       when: version == "6.3"
 
     - name: upgrade all packages
-      yum:git remote add origin https://github.com/patilsuraj767/capsule_installer_ansible.git
         name: '*'
         state: latest
 
